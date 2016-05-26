@@ -78,7 +78,9 @@ def switch_case(choice):
 	elif choice == '3':
 		exit_contact()
 	else:
-		print "You have entered invalid choice"
+		print "**************************************************"
+		print "You have entered invalid choice. Please enter again"
+		print "**************************************************\n"
 
 
 def exit_contact():
